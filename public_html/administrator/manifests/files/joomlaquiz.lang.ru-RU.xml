@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="file" version="3.0" method="upgrade">
+	<name>joomlaquiz.lang.ru-RU</name>
+	<author>JoomPlace Team</author>
+	<authorEmail>support@joomplace.com</authorEmail>
+	<authorUrl>www.joomplace.com</authorUrl>
+	<copyright>(C) JoomPlace, www.joomplace.com</copyright>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+	<version>1.0.0</version>
+	<creationDate>2021-07-03</creationDate>
+	<description>Language pack has been successfully installed</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.com_joomlaquiz.ini</filename>
+			<filename>ru-RU.com_joomlaquiz.sys.ini</filename>
+			<filename>ru-RU.plg_myquizzes.ini</filename>
+			<filename>ru-RU.plg_system_jq_alphauserpoints.ini</filename>
+		</files>
+		<files folder="site" target="language/ru-RU">
+			<filename>ru-RU.com_joomlaquiz.ini</filename>
+			<filename>ru-RU.mod_quiz_lastten.ini</filename>
+			<filename>ru-RU.mod_quiz_myresult.ini</filename>
+			<filename>ru-RU.mod_quiz_topxquiz</filename>
+			<filename>ru-RU.mod_quiz_topxusers.ini</filename>
+		</files>
+	</fileset>
+</extension>
