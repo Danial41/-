@@ -1,0 +1,22 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.eldorado.ru	TRUE	/	FALSE	1999999999	dt	1
+www.eldorado.ru	TRUE	/	FALSE	1999999999	PHPSESSID	d1d7seabah2fnt0qibok75jg04
+www.eldorado.ru	TRUE	/	FALSE	1999999999	ABT_test	A
+www.eldorado.ru	TRUE	/	FALSE	1999999999	BITRIX_SM_SALE_UID	13611158563
+www.eldorado.ru	TRUE	/	FALSE	1999999999	AC	1
+.flocktory.com	TRUE	/	FALSE	1999999999	__flocktory-web_session2	d122fda7-a695-4e64-a2490d43a2c4d10c
+api.flocktory.com	TRUE	/	FALSE	1999999999	SameSite	None
+.server.retentioneering.com	TRUE	/	FALSE	1999999999	reuseridx	wKhUxmDgFiCORgAdvGh7Ag==
+static.server.retentioneering.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.eldorado.ru	TRUE	/	FALSE	1999999999	ek_ab_test	B
+www.eldorado.ru	TRUE	/	FALSE	1999999999	AUTORIZZ	0
+www.eldorado.ru	TRUE	/	FALSE	1999999999	lv_user_org	0
+www.eldorado.ru	TRUE	/	FALSE	1999999999	el_group_user_org	0
+www.eldorado.ru	TRUE	/	FALSE	1999999999	bonus_cobrand_showed	0
+www.eldorado.ru	TRUE	/	FALSE	1999999999	USER_AUTH_GTM	0
+www.eldorado.ru	TRUE	/	FALSE	1999999999	iRegionSectionId	15605
+www.eldorado.ru	TRUE	/	FALSE	1999999999	bCNT	0%3A0
+www.eldorado.ru	TRUE	/	FALSE	1999999999	userSplit	B
+www.eldorado.ru	TRUE	/	FALSE	1999999999	show_region_popup	1
+

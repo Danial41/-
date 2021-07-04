@@ -374,6 +374,9 @@
 .chzn-container-single.chzn-rtl .chzn-single-with-drop div b {
   background-position: -12px 2px;
 }
+body {
+    background-color: #000;
+}
 /* @end */
 
 /* @group Retina compatibility */

@@ -1,0 +1,12 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 03 Jul 2021 10:53:58 at https://www.eldorado.ru/cat/detail/konditsioner-candy-ac-09hta103-r2/ +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qgC2%Ps2u1%s%u%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.eldorado.ru/cat/detail/konditsioner-candy-ac-09hta103-r2/ -O1 "C:\My Web Sites\eldorado_1" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:53:59	Warning: 	Warning: store text/html without scan: C:/My Web Sites/eldorado_1/index-2.html
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 seconds : 2 links scanned, 1 files written (999539 bytes overall), 1 files updated [106119 bytes received at 106119 bytes/sec], 999539 bytes transferred using HTTP compression in 1 files, ratio 10%
+(No errors, 1 warnings, 0 messages)

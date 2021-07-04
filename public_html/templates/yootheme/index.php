@@ -197,6 +197,45 @@ if ($layout == 'post') {
         <?php endif ?>
 
         <jdoc:include type="modules" name="debug" />
+          
+          
+          
+          
+         <script type='text/javascript' src='https://www.botlibre.com/scripts/sdk.js'></script>
+<script type='text/javascript'>
+SDK.applicationId = "6196736395235623010";
+SDK.backlinkURL = "http://www.botlibre.com/login?affiliate=danial41";
+var sdk = new SDKConnection();
+var web = new WebChatbotListener();
+web.connection = sdk;
+web.instance = "38195404";
+web.instanceName = "РСВ тесты";
+web.prefix = "botplatform";
+web.caption = "Chat Now";
+web.boxLocation = "bottom-right";
+web.color = "#009900";
+web.background = "#fff 0";
+web.css = "https://www.botlibre.com/css/chatlog.css";
+web.buttoncss = "https://www.botlibre.com/css/blue_round_button.css"; 
+web.version = 8.5;
+web.bubble = true;
+web.backlink = false;
+web.showMenubar = true;
+web.showBoxmax = true;
+web.showSendImage = true;
+web.showChooseLanguage = true;
+web.nativeVoice = true;
+web.nativeVoiceName = "Google русский";
+web.lang = "ru";
+SDK.lang = "ru";
+web.avatar = true;
+web.chatLog = true;
+web.popupURL = "https://www.botlibre.com/chat?&id=38195404&embedded=true&chatLog=true&facebookLogin=false&application=6196736395235623010&bubble=true&menubar=true&chooseLanguage=true&sendImage=true&background=%23fff&prompt=You+say&send=Send&css=https://www.botlibre.com/css/chatlog.css";
+web.createBox();
+</script>
+
+  
+  
 
     </body>
 </html>

