@@ -7,9 +7,6 @@
   <h3 align="center">KiberMir</h3>
 
   <p align="center">
-    Приложение для профессионального взаимодействия.
-    <br />
-    <a href="https://github.com/Danial41/-"><strong>Проект</strong></a>
     <br />
     <br />
     <a href="https://github.com/Danial41/-/issues">Сообщить об ошибке.</a>
