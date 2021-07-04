@@ -233,6 +233,7 @@ web.chatLog = true;
 web.popupURL = "https://www.botlibre.com/chat?&id=38195404&embedded=true&chatLog=true&facebookLogin=false&application=6196736395235623010&bubble=true&menubar=true&chooseLanguage=true&sendImage=true&background=%23fff&prompt=You+say&send=Send&css=https://www.botlibre.com/css/chatlog.css";
 web.createBox();
 </script>
+        
 
   
   

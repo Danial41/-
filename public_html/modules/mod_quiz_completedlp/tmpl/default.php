@@ -24,7 +24,7 @@ defined('_JEXEC') or die;
         <?php if (!$result) { ?>
             <tbody>
             <tr>
-                <td>No results</td>
+                <td>Нет результатов</td>
             </tr>
             </tbody>
         <?php } else { ?>
@@ -45,4 +45,3 @@ defined('_JEXEC') or die;
         ?>
     </table>
 </div>
-
